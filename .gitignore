@@ -1,0 +1,13 @@
+# No subir dependencias
+node_modules/
+
+# No subir lockfile
+package-lock.json
+
+# Archivos de entorno (si luego usas .env)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
