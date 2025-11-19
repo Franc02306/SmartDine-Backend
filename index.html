@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartDine</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+      }
+
+      header {
+        background: #1a73e8;
+        padding: 20px;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .hero {
+        background: url("intro-restaurant-plaza.jpg") center/cover no-repeat;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+        font-size: 38px;
+        font-weight: bold;
+      }
+
+      .section {
+        padding: 50px;
+        text-align: center;
+        background: white;
+      }
+
+      .section h2 {
+        margin-bottom: 15px;
+        font-size: 28px;
+      }
+
+      .features {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+      }
+
+      .card {
+        width: 250px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        text-align: center;
+      }
+
+      .footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>SmartDine</header>
+
+    <div class="hero">Ordena fácil. Paga rápido. Disfruta más.</div>
+
+    <div class="section">
+      <h2>¿Qué es SmartDine?</h2>
+      <p>
+        La plataforma que conecta a restaurantes y clientes con pedidos en
+        tiempo real, pagos integrados y administración rápida.
+      </p>
+
+      <div class="features">
+        <div class="card">
+          <h3>Pedidos en Tiempo Real</h3>
+          <p>
+            Los restaurantes reciben pedidos instantáneamente vía WebSocket.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Pagos Seguros</h3>
+          <p>
+            Integración con Niubiz para procesar pagos de forma rápida y segura.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Gestión de Menús</h3>
+          <p>
+            Los negocios actualizan su carta al instante desde el panel admin.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2025 SmartDine – Plataforma de pedidos y pagos para restaurantes
+    </div>
+  </body>
+</html>
