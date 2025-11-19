@@ -22,5 +22,16 @@ npm install pg
 
 node index.js
 
+-----------------------------------------------
 
+▶️ Ejecutar las pruebas
+npm test
 
+📌 Resultado esperado en la terminal
+PASS  ./pedido.test.js
+Test del endpoint /api/pedidos
+✓ Debe crear un pedido correctamente (45 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Time:        0.832 s
